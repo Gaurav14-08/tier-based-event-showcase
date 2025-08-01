@@ -1,6 +1,6 @@
 // app/layout.tsx
 
-import '../styles/globals.css'; // Use './' instead of '../styles/' since it's in app/
+import '../styles/globals.css'; // ✅ Correct path: go up one level from /app
 import { ClerkProvider } from '@clerk/nextjs';
 import { Inter } from 'next/font/google';
 

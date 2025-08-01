@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import TierBadge from './TierBadge';
+import TierBadge from '../components/TierBadge';
 import { useEffect } from 'react';
 
 export default function EventCard({ event }: { event: any }) {
